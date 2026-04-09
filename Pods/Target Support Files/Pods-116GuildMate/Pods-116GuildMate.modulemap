@@ -1,0 +1,6 @@
+framework module Pods_116GuildMate {
+  umbrella header "Pods-116GuildMate-umbrella.h"
+
+  export *
+  module * { export * }
+}
