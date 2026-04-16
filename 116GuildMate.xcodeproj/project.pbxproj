@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		30543C522F917280000323B9 /* StartMainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30543C502F917280000323B9 /* StartMainView.swift */; };
+		30543C532F917280000323B9 /* PersistenceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30543C4D2F917280000323B9 /* PersistenceManager.swift */; };
+		30543C542F917280000323B9 /* SaveService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30543C4F2F917280000323B9 /* SaveService.swift */; };
+		30543C552F917280000323B9 /* AppRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30543C4C2F917280000323B9 /* AppRouter.swift */; };
+		30543C562F917280000323B9 /* PrivacyWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 30543C4E2F917280000323B9 /* PrivacyWebView.swift */; };
 		746A27322F8784C50076A047 /* GuildColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A26F72F8784C50076A047 /* GuildColors.swift */; };
 		746A27332F8784C50076A047 /* GuildDesignSystem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A26F82F8784C50076A047 /* GuildDesignSystem.swift */; };
 		746A27342F8784C50076A047 /* GuildExternalLink.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A26F92F8784C50076A047 /* GuildExternalLink.swift */; };
@@ -51,6 +56,11 @@
 
 /* Begin PBXFileReference section */
 		17EF1D14F5115D2810EED201 /* Pods_116GuildMate.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_116GuildMate.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		30543C4C2F917280000323B9 /* AppRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppRouter.swift; sourceTree = "<group>"; };
+		30543C4D2F917280000323B9 /* PersistenceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersistenceManager.swift; sourceTree = "<group>"; };
+		30543C4E2F917280000323B9 /* PrivacyWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PrivacyWebView.swift; sourceTree = "<group>"; };
+		30543C4F2F917280000323B9 /* SaveService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SaveService.swift; sourceTree = "<group>"; };
+		30543C502F917280000323B9 /* StartMainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartMainView.swift; sourceTree = "<group>"; };
 		746A00582F7FD0250076A047 /* 116GuildMate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = 116GuildMate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		746A26F72F8784C50076A047 /* GuildColors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuildColors.swift; sourceTree = "<group>"; };
 		746A26F82F8784C50076A047 /* GuildDesignSystem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GuildDesignSystem.swift; sourceTree = "<group>"; };
@@ -108,6 +118,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		30543C512F917280000323B9 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				30543C4C2F917280000323B9 /* AppRouter.swift */,
+				30543C4D2F917280000323B9 /* PersistenceManager.swift */,
+				30543C4E2F917280000323B9 /* PrivacyWebView.swift */,
+				30543C4F2F917280000323B9 /* SaveService.swift */,
+				30543C502F917280000323B9 /* StartMainView.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
 		6820A591774A9B6E559515D3 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -299,6 +321,7 @@
 				746A272E2F8784C50076A047 /* Main.storyboard */,
 				746A272F2F8784C50076A047 /* SceneDelegate.swift */,
 				746A27302F8784C50076A047 /* ViewController.swift */,
+				30543C512F917280000323B9 /* Router */,
 			);
 			path = 116GuildMate;
 			sourceTree = "<group>";
@@ -417,6 +440,11 @@
 				746A27382F8784C50076A047 /* GuildStat.swift in Sources */,
 				746A27392F8784C50076A047 /* MemberClass.swift in Sources */,
 				746A273A2F8784C50076A047 /* MemberRole.swift in Sources */,
+				30543C522F917280000323B9 /* StartMainView.swift in Sources */,
+				30543C532F917280000323B9 /* PersistenceManager.swift in Sources */,
+				30543C542F917280000323B9 /* SaveService.swift in Sources */,
+				30543C552F917280000323B9 /* AppRouter.swift in Sources */,
+				30543C562F917280000323B9 /* PrivacyWebView.swift in Sources */,
 				746A273B2F8784C50076A047 /* Profession.swift in Sources */,
 				746A273C2F8784C50076A047 /* Raid.swift in Sources */,
 				746A273D2F8784C50076A047 /* RaidLoot.swift in Sources */,
@@ -491,7 +519,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.uza.g89ldn298s;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
@@ -529,7 +557,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.0;
+				MARKETING_VERSION = 1.1;
 				PRODUCT_BUNDLE_IDENTIFIER = com.uza.g89ldn298s;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				STRING_CATALOG_GENERATE_SYMBOLS = YES;
